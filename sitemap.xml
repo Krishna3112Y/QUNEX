@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://your-domain.com/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/architecture/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/changelog/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/contributors/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/milestones/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/core_module/database_structure/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/core_module/matching_engine/</loc>
+         <lastmod>2026-07-19</lastmod>
+    </url>
+</urlset>
