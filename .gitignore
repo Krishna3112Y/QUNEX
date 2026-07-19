@@ -1,0 +1,6 @@
+.env
+Notes
+__pycache__/
+*.pyc
+site/
+.pytest_cache/

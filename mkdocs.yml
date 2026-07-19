@@ -1,0 +1,64 @@
+site_name: QUNEX Trading Docs
+site_description: Open-source virtual stock market trading platform documentation.
+site_author: Krishna Yadav
+site_url: https://your-domain.com # Replace with your actual deployment URL
+
+# --- Visual Styling Configuration ---
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/chart-timeline-variant
+  features:
+    - navigation.tabs          # Top horizontal navigation menu
+    - navigation.sections      # Better grouped sidebars
+    - navigation.expand        # Expand items automatically
+    - navigation.top           # "Back to top" action button
+    - search.suggest           # Live search bar auto-suggest
+    - search.highlight         # Visual highlight on search terms
+    - content.code.copy        # One-click code snippet copying
+  
+  # Premium, eye-strain-free financial dark/light palettes
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: indigo
+      accent: indigo
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: slate
+      accent: teal
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# --- Visual Customization Extra ---
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com # Pro Tip: Links your GitHub repo in footer
+
+# --- Extra Markdown Extensions (Recommended for Tech Docs) ---
+markdown_extensions:
+  - admonition                 # Visual alert callout boxes
+  - pymdownx.details           # Collapsible dropdown code/text blocks
+  - pymdownx.superfences       # Advanced nested code blocking
+  - pymdownx.inlinehilite      # Inline code highlighting
+
+# --- Navigation Tree Structure ---
+nav:
+  - Home Workspace: index.md
+  - Core Modules Engineering:
+      - Database Blueprints: core_module/database_structure.md
+      - Matching Engine Logic: core_module/matching_engine.md
+  - System Architecture: architecture.md
+  - Project Updates: changelog.md
+  - Milestones & Roadmap: milestones.md
+  - Hall of Fame: contributors.md
+
+# --- Extra Plugins ---
+plugins:
+  - search
