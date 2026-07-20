@@ -1,7 +1,7 @@
 site_name: QUNEX Trading Docs
 site_description: Open-source virtual stock market trading platform documentation.
 site_author: Krishna Yadav
-site_url: https://your-domain.com # Replace with your actual deployment URL
+site_url: https://krishna3112y.github.io/QUNEX/
 
 # --- Visual Styling Configuration ---
 theme:
@@ -39,8 +39,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com # Pro Tip: Links your GitHub repo in footer
-
+      link: https://github.com/Krishna3112Y/QUNEX
 # --- Extra Markdown Extensions (Recommended for Tech Docs) ---
 markdown_extensions:
   - admonition                 # Visual alert callout boxes
