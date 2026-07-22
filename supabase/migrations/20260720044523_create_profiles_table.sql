@@ -9,8 +9,8 @@ CREATE TABLE public.profiles (
     username TEXT UNIQUE NOT NULL,
 
     -- Field Name: cash_balance
-    -- Data Type: NUMERIC(15, 2), Default: 100000.00, Rule: CHECK cash_balance >= 0
-    cash_balance NUMERIC(15, 2) DEFAULT 100000.00 NOT NULL CHECK (cash_balance >= 0),
+    -- Data Type: NUMERIC(15, 2), Default: 10000.00, Rule: CHECK cash_balance >= 0
+    cash_balance NUMERIC(15, 2) DEFAULT 10000.00 NOT NULL CHECK (cash_balance >= 0),
 
     -- Field Name: created_at
     -- Data Type: TIMESTAMP, Default: NOW(), Rule: Records creation time automatically
